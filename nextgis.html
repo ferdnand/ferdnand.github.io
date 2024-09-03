@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html oncontextmenu="return false">
+
 <head>
   <style>
     body {
@@ -24,6 +25,7 @@
       display: block;
       color: #fff;
     }
+
     .hideshareUP {
       position: absolute;
       width: 60px;
@@ -36,13 +38,17 @@
       color: #fff;
     }
   </style>
+
 </head>
-<body>
+
+<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
   <div class="wrapper">
     <div class="hideshare"></div>
     <div class="hideshareUP"></div>
 
-    <iframe title="hypothesis" src="https://mamap.nextgis.com/resource/19/display/tiny?base=osm-mapnik&lon=34.5214&lat=0.4618&angle=0&zoom=13&styles=16%2C18&linkMainMap=true&events=false&panel=none&controls=&panels=" frameborder="0" allowFullScreen="true"  id="Iframe"></iframe>
+    <iframe title="hypothesis"
+      src="https://mamap.nextgis.com/resource/19/display/tiny?base=osm-mapnik&lon=34.5214&lat=0.4618&angle=0&zoom=13&styles=16%2C18&linkMainMap=true&events=false&panel=none&controls=&panels="
+      frameborder="0" allowFullScreen="true" id="Iframe"></iframe>
   </div>
 
   <script>
@@ -69,10 +75,15 @@
     window.addEventListener('resize', adjustSize);
 
     // Disable right-click and show message
-    document.addEventListener('contextmenu', function(event) {
+    document.addEventListener('contextmenu', function (event) {
       event.preventDefault();
       alert('Right-click is disabled.');
     });
+
+    document.bind("contextmenu", function (e) {
+      e.preventDefault();
+    }); 
   </script>
 </body>
+
 </html>
