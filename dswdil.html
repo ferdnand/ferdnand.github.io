@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+    }
+
+    .hideshare {
+      position: absolute;
+      width: 120px;
+      height: 45px;
+      background: rgba(221, 198, 198, 0.654);
+      right: 0px;
+      bottom: 6px;
+      z-index: 999;
+      display: block;
+      color: #fff;
+    }
+
+    .hideshareUP {
+      position: absolute;
+      width: 60px;
+      height: 40px;
+      background: rgba(221, 198, 198, 0.654);
+      right: 0px;
+      top: 15px;
+      z-index: 999;
+      display: block;
+      color: #fff;
+    }
+  </style>
+
+</head>
+
+<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+  <div class="wrapper">
+    <div class="hideshare"></div>
+    <div class="hideshareUP"></div>
+
+    <iframe title="hypothesis"
+      src="https://bit.ly/dswdil"
+      frameborder="0" allowFullScreen="true" id="Iframe"></iframe>
+  </div>
+
+  <script>
+    // Selecting the iframe element
+    var frame = document.getElementById("Iframe");
+
+    // Function to adjust the size of iframe and window
+    function adjustSize() {
+      // Calculate the scrollbar width and height
+      var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+      var scrollbarHeight = window.innerHeight - document.documentElement.clientHeight;
+
+      // Set the height of the iframe as the height of the screen minus scrollbar height
+      frame.style.height = (window.innerHeight - scrollbarHeight) + 'px';
+
+      // Set the width of the iframe as the width of the screen minus scrollbar width
+      frame.style.width = (window.innerWidth - scrollbarWidth) + 'px';
+    }
+
+    // Adjust the size on page load
+    adjustSize();
+
+    // Adjust the size on window resize
+    window.addEventListener('resize', adjustSize);
+
+    // Disable right-click and show message
+    document.addEventListener('contextmenu', function (event) {
+      event.preventDefault();
+      alert('Right-click is disabled.');
+    });
+
+    document.bind("contextmenu", function (e) {
+      e.preventDefault();
+    }); 
+  </script>
+</body>
+
+</html>
