@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+    }
+
+    .hideshare {
+      position: absolute;
+      width: 120px;
+      height: 45px;
+      background: rgba(221, 198, 198, 0.654);
+      right: 0px;
+      bottom: 6px;
+      z-index: 999;
+      display: block;
+      color: #fff;
+    }
+    .hideshareUP {
+      position: absolute;
+      width: 60px;
+      height: 40px;
+      background: rgba(221, 198, 198, 0.654);
+      right: 0px;
+      top: 15px;
+      z-index: 999;
+      display: block;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="hideshare"></div>
+    <div class="hideshareUP"></div>
+
+    <iframe title="hypothesis" src="https://mamap.nextgis.com/resource/19/display/tiny?base=osm-mapnik&lon=34.5214&lat=0.4618&angle=0&zoom=13&styles=16%2C18&linkMainMap=true&events=false&panel=none&controls=&panels=" frameborder="0" allowFullScreen="true"  id="Iframe"></iframe>
+  </div>
+
+  <script>
+    // Selecting the iframe element
+    var frame = document.getElementById("Iframe");
+
+    // Function to adjust the size of iframe and window
+    function adjustSize() {
+      // Calculate the scrollbar width and height
+      var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+      var scrollbarHeight = window.innerHeight - document.documentElement.clientHeight;
+
+      // Set the height of the iframe as the height of the screen minus scrollbar height
+      frame.style.height = (window.innerHeight - scrollbarHeight) + 'px';
+
+      // Set the width of the iframe as the width of the screen minus scrollbar width
+      frame.style.width = (window.innerWidth - scrollbarWidth) + 'px';
+    }
+
+    // Adjust the size on page load
+    adjustSize();
+
+    // Adjust the size on window resize
+    window.addEventListener('resize', adjustSize);
+
+    // Disable right-click and show message
+    document.addEventListener('contextmenu', function(event) {
+      event.preventDefault();
+      alert('Right-click is disabled.');
+    });
+  </script>
+</body>
+</html>
