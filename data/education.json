@@ -1,0 +1,36 @@
+{
+  "formal": [
+    {
+      "degree": "MSc. Health Economics",
+      "institution": "University of Nairobi",
+      "period": "2018 \u2013 Current"
+    },
+    {
+      "degree": "BA (Economics) with IT",
+      "institution": "Maseno University",
+      "period": "2006 \u2013 2010"
+    }
+  ],
+  "additional": [
+    {
+      "title": "Mastering Data Analysis in Excel",
+      "org": "Duke University",
+      "year": "2020"
+    },
+    {
+      "title": "Results-Based Project Management: Monitoring and Evaluation",
+      "org": "Wits University",
+      "year": "2021"
+    },
+    {
+      "title": "Health Financing Policy for Universal Health Coverage",
+      "org": "WHO",
+      "year": "2019"
+    },
+    {
+      "title": "Measuring Health Outcomes in Field Surveys",
+      "org": "J-PAL",
+      "year": "2017"
+    }
+  ]
+}

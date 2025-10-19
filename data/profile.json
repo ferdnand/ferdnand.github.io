@@ -1,0 +1,28 @@
+{
+  "name": "Motari Ferdnand Ongeta",
+  "location": "Nairobi, Kenya",
+  "email": "mongeta5@gmail.com",
+  "phones": [
+    "+254700317457",
+    "+254736393143"
+  ],
+  "summary": "Seasoned professional with over 10 years in Consulting, Planning, Monitoring, Evaluation, Research and Learning (P-MERL), Scientific Research, and Data Analytics across WASH, Health & Nutrition & Livelihoods, Education, and Climate Change. Expertise in impact evaluation, statistical analysis, database management, business development, and project management. Proficient in Stata, R, NVIVO, Power BI, SurveyCTO, ArcGIS, DHIS2, SQL, and Python. Experienced leader and mentor driving results across Africa and Asia.",
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/YOUR-USERNAME"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=YOURID"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/YOUR-USERNAME"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/YOUR-ID"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "group": "Analytics",
+    "items": [
+      "Stata",
+      "R",
+      "Python",
+      "SQL",
+      "Excel"
+    ]
+  },
+  {
+    "group": "Technical (M&E)",
+    "items": [
+      "Theory of Change",
+      "Logframe Design",
+      "Design of Experiments",
+      "Evaluation Design",
+      "Survey Design",
+      "Statistical Analysis"
+    ]
+  },
+  {
+    "group": "Visualization",
+    "items": [
+      "Power BI",
+      "Qlik",
+      "ArcGIS",
+      "Tableau",
+      "PowerPoint",
+      "Excel"
+    ]
+  },
+  {
+    "group": "Databases",
+    "items": [
+      "MySQL",
+      "SQLite",
+      "PostgreSQL",
+      "MS Access",
+      "DHIS2"
+    ]
+  },
+  {
+    "group": "Data Capture",
+    "items": [
+      "ODK",
+      "KoBo Toolbox",
+      "SurveyCTO",
+      "CSPro",
+      "CommCare",
+      "Bespoke systems"
+    ]
+  },
+  {
+    "group": "Soft Skills",
+    "items": [
+      "Problem Solving",
+      "Critical Thinking",
+      "Interpersonal Skills",
+      "Attention to Detail",
+      "Cultural & Diplomatic Skills",
+      "Leadership & Mentorship"
+    ]
+  }
+]

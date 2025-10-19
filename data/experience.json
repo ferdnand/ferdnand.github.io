@@ -1,0 +1,139 @@
+[
+  {
+    "role": "Manager, Data Analytics and Learning",
+    "org": "Evidence Action",
+    "period": "Jan 2022 \u2013 Current",
+    "supporting": [
+      "Safe Water Now: Kenya, Uganda, Malawi, Nigeria, Sierra Leone",
+      "Deworm the World (STH/SCH): Kenya, Nigeria, Malawi, Pakistan, India",
+      "Maternal Syphilis: Liberia, Zambia, Cameroon",
+      "Iron & Folic Acid: Malawi, India"
+    ],
+    "achievements": [
+      "Led MEAL frameworks to guide expansion into new geographies.",
+      "Coordinated impact evaluation of Safe Water program, informing dispenser optimization.",
+      "Led research/evaluations on scale-up (Nigeria), data collection (Malawi), delivery (Kenya), volunteer motivation/retention (Uganda).",
+      "Designed and implemented data QA system improving quality by 80%.",
+      "Built accessible reporting for internal reports/dashboards converting complex data into insights.",
+      "Led 2 external research papers; 2 more in progress.",
+      "Developed analytics strategy improving program efficiency by 50%.",
+      "Prepared donor reports biannually with fundraising/global teams.",
+      "Integrated DtW data into MoE/MoH systems in Kenya and Pakistan.",
+      "Initiated staff retention program improving retention by 90%+."
+    ],
+    "responsibilities": [
+      "Develop ToC, logframes, M&E plans, and survey design for utility-focused, reliable, valid data.",
+      "Define questionnaire frameworks and indicators for programs/donors.",
+      "Draft TORs for M&E in current and expansion locations.",
+      "Report on data quality, best practices, and lessons learned.",
+      "Create data storytelling maps/dashboards to guide expansion decisions.",
+      "Lead research to influence and improve implementation design.",
+      "Co-develop factsheets and external materials; coordinate with government and partners.",
+      "Organize leadership meetings; manage work plans and SOWs.",
+      "Supervise capacity development plan and oversee 4-subunit analytics department."
+    ]
+  },
+  {
+    "role": "Associate Manager, Monitoring, Learning and Evaluation",
+    "org": "Evidence Action",
+    "period": "Jan 2019 \u2013 Dec 2021",
+    "supporting": [
+      "Safe Water Now: Kenya, Uganda, Malawi, Nigeria, Sierra Leone",
+      "Deworm the World (STH/SCH): Kenya, Nigeria, Malawi, Pakistan, India",
+      "NPELF (Kenya)"
+    ],
+    "achievements": [
+      "Implemented e-data collection (Kenya, Pakistan): 85% faster reporting, 90%+ cost reduction.",
+      "Standardized analytics scripts for quality, compliance, reproducibility.",
+      "Coordinated and quality-assured external consultants.",
+      "Built dynamic data system for NPELF used by Kenya MoH DVBNTD.",
+      "Presented monitoring results to programs and government; informed leadership decisions.",
+      "Supported scoping for new programs in Africa with quality data and desk reviews.",
+      "Specified targeted performance indicators improving decisions."
+    ],
+    "responsibilities": [
+      "Analyze coverage/adoption to inform operations.",
+      "Field visits for PMP performance; lead methodology design/improvement.",
+      "Collaborate on data needs, sample sizes, statistical analysis plans.",
+      "Write pre-analysis plans and analytical reports.",
+      "Support sourcing/managing technical consultants.",
+      "Lead innovation on IS and process monitoring.",
+      "Build capacity on reporting, visualization, analytics.",
+      "Plan/oversee expansion of SQL databases."
+    ]
+  },
+  {
+    "role": "Senior Associate, Data Management",
+    "org": "Evidence Action",
+    "period": "Mar 2016 \u2013 Dec 2018",
+    "supporting": [
+      "Dispensers for Safe Water (Kenya, Uganda, Malawi)",
+      "Deworm the World (Kenya, Nigeria)",
+      "NPELF (Kenya)",
+      "Winning Start (G-United) (Kenya)"
+    ],
+    "achievements": [
+      "SOPs/checklists/manuals improved data pipeline for DtW.",
+      "Digitized complex surveys, improving quality and cost efficiency.",
+      "Placement algorithm enabled timely allocation for 5,000+ volunteers.",
+      "Translated M&E logical frameworks/design documents into operations."
+    ],
+    "responsibilities": [
+      "Recommend innovative research, analysis, and modeling tools.",
+      "Develop training content on data management and analysis.",
+      "Lead QA/QC to flag inconsistencies and verify accuracy.",
+      "Coordinate with collection/learning teams for monitoring timelines.",
+      "Build Excel/Power BI dashboards; maintain SQL databases."
+    ]
+  },
+  {
+    "role": "Data Analytics Consultant",
+    "org": "PAL Network / Twaweza East Africa",
+    "period": "Apr 2015 \u2013 Feb 2016",
+    "achievements": [
+      "Designed PC and mobile EDC systems.",
+      "Analyzed and presented findings for managerial action.",
+      "Automated progress/descriptive reporting.",
+      "Researched school monitoring tools for adoption."
+    ],
+    "responsibilities": [
+      "Specify performance indicators.",
+      "Lead design, pilot, and adaptation of instruments.",
+      "Predict trends and target regions for intervention.",
+      "Drive quality improvement initiatives."
+    ]
+  },
+  {
+    "role": "Data Manager",
+    "org": "KEMRI",
+    "period": "Aug 2014 \u2013 Mar 2015",
+    "supporting": [
+      "Tupange: Service Delivery Endline",
+      "iCCM"
+    ],
+    "responsibilities": [
+      "Descriptive/inferential analysis in STATA/SAS.",
+      "LaTeX and PowerPoint for dissemination.",
+      "Report and SOW writing for broad audiences.",
+      "Training on data tools and research ethics.",
+      "Linked KEMRI databases with Kenya HMIS.",
+      "Digitized instruments in ODK/CSPro.",
+      "Maintained SQL database; built Excel dashboards.",
+      "Data quality assessments for consistency/completeness/accuracy."
+    ]
+  },
+  {
+    "role": "Regional ICT Assistant",
+    "org": "IEBC",
+    "period": "Jan 2012 \u2013 May 2014",
+    "achievements": [
+      "Public speaking at electoral events.",
+      "Training support for election officers.",
+      "Animated polling station maps (SQL + JS).",
+      "Tracking systems for voter registration.",
+      "Managed Bungoma regional tallying center.",
+      "Configured electoral gadgets; DQA activities.",
+      "Analyzed registration and elections data."
+    ]
+  }
+]
